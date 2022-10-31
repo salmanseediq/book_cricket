@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Play Cricket</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-flex">
+        <div class="player-0">
+            <h3 class="team-0-name">Team Name</h1>
+                <h1 class="team-0-score">0</h1>  
+        </div>
+
+        <div class="player-1">
+            <h3 class="team-1-name">Team Name</h1>
+                <h1 class="team-1-score">0</h1>  
+        </div>
+    </div>
+   
+  
+    <script>
+    let queryString=window.location.search;
+    const urlParams=new URLSearchParams(queryString);
+    const teamName=urlParams.get('team1');
+    const teamName2=urlParams.get('team2');
+    let team0Name=document.querySelector('.team-0-name');
+    let team1Name=document.querySelector('.team-1-name');
+    team0Name.textContent=teamName;
+    team1Name.textContent=teamName2;
+    </script>
+
+</body>
+</html>

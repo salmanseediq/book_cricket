@@ -1,0 +1,75 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background: green;
+    color:#fff;
+}
+
+a{
+    text-decoration: none;
+    color:black;
+}
+
+
+.heading{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oleo Script', cursive;
+}
+
+.container-flex{
+    padding: 120px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.team-selection{
+    display: flex;
+    gap:20px;
+}
+
+.team-0{
+ padding: 20px 20px;
+ background:red;
+ color:#fff;
+ border: 1px solid;
+
+}
+
+.team-1{
+    padding: 20px 20px;
+    background:blue;
+    color:#fff;
+    border: 1px solid;
+   
+   }
+
+
+.btn-div{
+    display:flex;
+    justify-content: center;
+}
+.play-btn{
+     padding: 10px 20px;
+}
+
+.play-btn:hover{
+    background: rgb(24, 241, 24);
+    border: none;
+}
+
+.cricket-image{
+    width:500px;
+}
+
+
+
+
+
+
+
+
+
